@@ -1,0 +1,69 @@
+
+.Form {
+    width: 100%;
+    height: 500px;
+    margin-left:10px;
+   padding:30px;
+}
+
+table{
+margin-top:30px;
+border:2px solid black;
+border-collapse:collapse;
+width:100%;
+padding-left:10px;
+}
+tr{
+ margin-left:10px;
+}
+
+thead{
+ background:black;
+ height:20px;
+ font-size:20px;
+ color:white;
+}
+table td{
+ border:1px solid black;
+ font-size:20px;
+ text-align:center;
+ 
+}
+.icon1{
+font-size:30px;
+padding-left:30px;
+color:black;
+}
+
+
+/*@media only screen and (max-width: 368px) {
+    thead {
+      background-image: linear-gradient(45deg, #ff00cc, #333399);
+      height: 60px;
+      font-size: 16px;
+    }
+  }
+
+  
+  @media only screen and (max-width: 376px) {
+    thead {
+      background-image: linear-gradient(30deg, #ff00cc, #333399);
+      height: 50px;
+      font-size: 14px;
+      justfy-content:center;
+    }
+  }*/
+   @media only screen and (max-width: 576px) {
+    /* Adjustments for screens up to 576px wide */
+    table {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    thead {
+      height: 30px;
+      font-size: 14px;
+    }
+    td {
+      font-size: 14px;
+    }
+  }
